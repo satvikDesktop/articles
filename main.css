@@ -1,0 +1,75 @@
+:root{
+    --background: #202124;
+    --font: 'Roboto Mono', monospace ;
+    
+}
+body{
+    background-color:var(--background);
+}
+h1{
+    width: 14%;
+    color:#ffffff;
+    background-color: #000000;
+    font-family: var(--font);
+    
+    font-size:3vw;
+}
+@media only screen and (max-width: 600px) {
+    h1 {
+        width: 50%;
+        font-size: 10vw;
+    }
+}
+h3{
+    color: rgb(189, 189, 189);
+    font-family: var(--font);
+    font-size:1vw;
+    margin-top:-3%;
+}
+@media only screen and (max-width: 600px) {
+    h3 {
+        font-size:4vw;
+        margin-top:-9%;
+    }
+}
+/* SCROLLBAR */
+
+/* width */
+::-webkit-scrollbar {
+    width: 10px; 
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: #202124;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #47dd6c;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #26773a;
+}
+
+/* FOOTER */
+
+
+#footer-link {
+    text-decoration: none;
+    color: rgb(145, 145, 145);
+    transition: background .2s cubic-bezier(.33, .66, .66, 1);
+    border-bottom: 3px solid #202124;
+}
+#footer-link:hover {
+    color: white;
+    background-color: #000000;
+}
+.line-divide {
+    width: 100%;
+    height: 1px;
+    background-color: #696969;
+    margin: 0 auto;
+}
