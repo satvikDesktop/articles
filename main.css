@@ -1,5 +1,5 @@
 :root{
-    --background: #202124;
+    --background: #131318;
     --font: 'Roboto Mono', monospace ;
     
 }
@@ -72,4 +72,18 @@ h3{
     height: 1px;
     background-color: #696969;
     margin: 0 auto;
+}
+#navbar-link {
+    display: inline;
+    color: white;
+    font-family: 'JetBrains Mono', monospace;
+}
+
+#navbar-link:hover {
+    opacity: 0.5;
+}
+
+#navbar {
+    display: inline;
+    text-align: right;
 }

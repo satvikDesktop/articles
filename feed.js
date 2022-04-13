@@ -6,7 +6,7 @@ const api = 'https://dev.to/api';
  * @param {string} username - DEV username, e.g. 'ben'.
  * @param {number} numberOfPosts - Number of posts to list. 
  */
-function createFeed(elem, username, numberOfPosts = 5) {
+function createFeed(elem, username, numberOfPosts = 10) {
     const feed = document.createElement('ul');
     feed.classList.add('dev-feed-list');
     getPosts(username)
